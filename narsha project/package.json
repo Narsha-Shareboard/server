@@ -1,0 +1,22 @@
+{
+  "name": "narsha-shareboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www",
+  "bin": {
+    "narsha-shareboard": "www.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon bin/www"
+  },
+  "author": "",
+  "license": "ISC"
+}
