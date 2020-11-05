@@ -16,7 +16,7 @@ router.post('/autologin', function (req, res, next) {
             resolve(decondedToken)
         })
     })
-    cheakSubjectAndPurpose = (decodedToken) => {
+    const cheakSubjectAndPurpose = (decodedToken) => {
         const userId = decodedToken.sub;
         console.log(userId);
         return decodedToken
